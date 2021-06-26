@@ -4,7 +4,7 @@ function removeCard(card) {
 }
 
 function openPost(author, heading, content) {
-    const url = `../html/blog.html?heading=${encodeURIComponent(heading.innerText)}&author=${encodeURIComponent(
+    const url = `../html/post.html?heading=${encodeURIComponent(heading.innerText)}&author=${encodeURIComponent(
             author.innerText
     )}&content=${encodeURIComponent(content.innerText)}`;
     window.location.href = url;
